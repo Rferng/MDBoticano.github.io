@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MBoticano</title>
+  <!-- Bootstrap, jQuery, and JavaScript-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- My css -->
+  <link rel="stylesheet" href="redone.css">
+ </head>
+ 
+ 
+ <!--<body> -->
+ <body>
+ 
+  <!--navigation-->
+  <section id="home">
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">   
+    <!-- for collapsing navbar -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+        data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">MBoticano</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li class="active" data-toggle="collapse" data-target=
+          ".navbar-collapse.in"><a href="#">Home</a></li> (can we get away
+		  with this?) -->
+        <li class="active" data-toggle="collapse" data-target=".navbar-collapse.in">
+		  <a href="#projects-browser">Projects</a></li>
+        <li data-toggle="collapse" data-target=".navbar-collapse.in">
+          <a href="#about-me">About Me</a></li>
+        <li data-toggle="collapse" data-target=".navbar-collapse.in">
+          <a href="#resume">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  </section>
+  
+  
+  <!-- Projects Browser -->
+  <section id="projects-browser">
+  <div class="projects-browser">
+    <div class="container">
+    <!--<h2>Projects</h2> <!--section title-->
+    <div class="row">
+    <div class="col-xs-4">
+      <div class="individualProject">
+      <a href="#project1">
+        <img class="center-block img-responsive" src="project1thumb.jpg" 
+          alt="project Thumbnail"/>
+      </a>
+	  <h4>Project 1 Title</h4>
+      </div>
+    </div>    
+
+    <div class="col-xs-4">
+      <div class="individualProject">
+      <a href="#project2">
+        <img class="center-block img-responsive" src="project2thumb.jpg" 
+          alt="project Thumbnail"/>
+      </a>
+	  <h4>Project 2 Really Really Really Long Title</h4>
+      </div>
+    </div>    
+
+    <div class="col-xs-4">
+      <div class="individualProject">
+      <a href="#project3">
+        <img class="center-block img-responsive" src="project3thumb.jpg" 
+          alt="project Thumbnail"/>
+      </a>
+	  <h4>P3</h4>
+      </div>
+    </div>
+    
+    </div>
+    </div>
+  </div>
+  </section>  
+ 
+  
+  <footer class="container">
+  <div class="row">
+    <p class="col-sm-12">&copy; 2016 Marlo Boticano</p>
+  </div>
+  </footer> 
+ 
+ </body>
+ </html>
