@@ -64,7 +64,7 @@ body
 
 .projects-browser
 {
-  padding-top: 100px;
+  padding-top: var(--default-padding);
   padding-bottom: var(--default-padding);
   background-color: var(--background-color);
   /*color: #00f; /*text color*/
